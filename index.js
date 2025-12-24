@@ -16,7 +16,7 @@ app.use(cors());
 app.use(bodyparser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000", "http://localhost:3001"],
+    origin: ["https://dashing-tartufo-c40450.netlify.app", "http://localhost:3001"],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
   })
